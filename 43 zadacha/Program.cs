@@ -18,11 +18,11 @@ Console.Write("Введите k2: ");
 double k2 = Convert.ToDouble(Console.ReadLine());
 double x = 0;
 double y = 0;
-if (k1== k2 && b1 == b2)
+if (k1 == k2 && b1 == b2)// множество точек пересечния
 {
     Console.WriteLine("они совпадают");
 }
-else if (b1 / b2 == k1 / k2)
+else if (k1 == k2)// не имеют общих точек
 {
     Console.WriteLine("они параллельны");
 }
